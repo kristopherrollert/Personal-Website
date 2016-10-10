@@ -8,6 +8,9 @@ html {
 }
 body{
   height:100%;
+  margin-left: 0px;
+  margin-right: 0px;
+
 }
 .content{
   text-align: center;
@@ -19,15 +22,26 @@ body{
 }
 
 .header-block{
-  max-width: 50%;
+  /*max-width: 50%;*/
+  width:100%;
+  background-color: rgba(255, 255, 255, .7);
+  padding: 1.5vw;
+
 }
 .header{
-  font-family: 'Open Sans', sans-serif;
-}
+  font-family: 'Roboto', sans-serif;
+  font-size: 4vw;
+  margin-bottom: 0px;
+  margin-top: 0px;
+    font-weight: 300;
+  }
 
 .sub-header{
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  font-size:1.2vw;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 a{
@@ -36,4 +50,19 @@ a{
 }
 a:hover{
   text-decoration: underline;
+}
+.bottom-page-content{
+  position: absolute;
+  bottom: 0;
+  background-color: #FF6152;
+  width:100%;
+
+}
+.bottom-page-menu-items{
+  display:inline;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0px 10px 0px 10px;
+}
+.bottom-page-menu{
+  padding-left:0px;
 }
