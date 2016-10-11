@@ -1,25 +1,97 @@
 html {
-  /*background: url(jumbotron.png) no-repeat center center fixed;
+  background: url() no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;*/
+  background-size: cover;
+  /*background-color: #f9f9f9;*/
   height:90%;
 }
 body{
-  height:100%;
-  margin-left: 0px;
-  margin-right: 0px;
-
+  height:90%;
+  margin: 0px;
 }
-.content{
+
+
+
+/* ARROW FORMATING */
+.arrow-image{
+  height: 3vw;
+  width:auto;
+}
+.arrow-right{
+  margin-right: 1.5vw;
+}
+.arrow-left{
+  margin-left:1.5vw;
+}
+
+
+
+/* SECTION ONE: HOME */
+.section-one{
   text-align: center;
   width:100%;
-  height:100%;
+  height:95%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position:absolute;
 }
+
+/* SECTION TWO: EXPERIENCE*/
+.section-two{
+  text-align: center;
+  width:100%;
+  height:95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  background-color: #FFA652;
+  right:150%;
+}
+
+/* SECTION THREE: CREATIONS*/
+.section-three{
+  text-align: center;
+  width:100%;
+  height:95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  background-color: #D3448A;
+  right:150%;
+}
+
+/* SECTION FOUR (NEGATIVE ONE): PERSONAL*/
+.section-four{
+  text-align: center;
+  width:100%;
+  height:95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  background-color: #AFEC4C;
+  left:150%;
+}
+
+/* SECTION FOUR (NEGATIVE TWO): CONTACT*/
+.section-five{
+  text-align: center;
+  width:100%;
+  height:95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  background-color: #FF6152;
+  left:150%;
+}
+
+
 
 .header-block{
   /*max-width: 50%;*/
@@ -51,11 +123,15 @@ a{
 a:hover{
   text-decoration: underline;
 }
+
 .bottom-page-content{
   position: absolute;
   bottom: 0;
-  background-color: #FF6152;
   width:100%;
+  background-color: #fff;
+  text-align: center;
+
+
 
 }
 .bottom-page-menu-items{
@@ -64,5 +140,80 @@ a:hover{
   padding: 0px 10px 0px 10px;
 }
 .bottom-page-menu{
-  padding-left:0px;
+  padding:0px;
+  padding-top: 1vw;
+  margin:0px;
+  height:2vw;
+  padding-bottom:.2vw;
+}
+
+.contact-image{
+  padding:1vw;
+  height: 5vw;
+  width:auto;
+}
+#creations-tab{
+  cursor: pointer;
+  padding: .8vw;
+  margin-right: .1vw;
+  border-radius: 10px 10px 0 0;
+  background-size: 100% 200%;
+  font-size: 1vw;
+  border-radius: 3px 3px 0 0;
+  background-image: linear-gradient(to bottom, white 50%, #D3448A 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+#experience-tab{
+  cursor: pointer;
+  padding: .8vw;
+  margin-left: .1vw;
+  font-size: 1vw;
+  margin-right: .1vw;
+  background-size: 100% 200%;
+  border-radius: 3px 3px 0 0;
+  background-image: linear-gradient(to bottom, white 50%, #FFA652 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+#home-tab{
+  cursor: pointer;
+  padding: .8vw;
+  font-size: 1vw;
+  margin-left: .1vw;
+  margin-right: .1vw;
+  border-radius: 3px 3px 0 0;
+  background-size: 100% 200%;
+  background-image: linear-gradient(to bottom, #c9c9c9 50%, white 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+#personal-tab{
+  cursor: pointer;
+  font-size: 1vw;
+  padding: .8vw;
+  margin-left: .1vw;
+  margin-right: .1vw;
+  background-size: 100% 200%;
+  border-radius: 3px 3px 0 0;
+  background-image: linear-gradient(to bottom, white 50%, #AFEC4C 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+}
+#contact-tab{
+  cursor: pointer;
+  font-size: 1vw;
+  padding: .8vw;
+  margin-left: .1vw;
+  background-size: 100% 200%;
+  border-radius: 3px 3px 0 0;
+  background-image: linear-gradient(to bottom, white 50%, #FF6152 50%);
+  -webkit-transition: background-position 1s;
+  -moz-transition: background-position 1s;
+  transition: background-position 1s;
+
 }

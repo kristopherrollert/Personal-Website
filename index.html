@@ -5,33 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300" rel="stylesheet">  <title>Kristopher Rollert</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Roboto:300" rel="stylesheet">
+  <title>Kristopher Rollert</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+  <script src="script.js"></script>
 </head>
 <body>
-  <div class="content">
-    <div class="header-block">
-      <h1 class="header">KRISTOPHER ROLLERT</h1>
-      <h3 class ="sub-header">Hello! Sorry about my site being down, I am currently reworking everything.<br>You can find my resume <a href ="resume.pdf">here</a>
-        or contact me at <a href="mailto:me@kristopher.rollert.com">me@kristopherrollert.com</a></h3>
+  <!-- ****** SECTION ONE: HOME ****** !-->
+  <div class="section-one">
+      <img src="arrow-image-left-2.png" class ="arrow-image arrow-left" id="arrow-left-home">
+    <div class="header-block" id="section-one-header">
+      <h1 class="header" id="section-one-header">KRISTOPHER ROLLERT</h1>
+      <h3 class ="sub-header" id="section-one-sub-header">I am a Computer Science student at UCSC and web design enthusiast<br>You can find my resume <a href ="resume.pdf">here</a>
+        or email me at <a href="mailto:me@kristopherrollert.com">me@kristopherrollert.com</a></h3>
     </div>
+      <img src="arrow-image-right-2.png" class ="arrow-image arrow-right" id="arrow-right-home">
   </div>
-  <!--
+
+  <!-- ****** SECTION TWO: EXPERIENCE ****** !-->
+<div class="section-two">
+  <img src="arrow-image-left-2.png" class ="arrow-image arrow-left" id="arrow-left-experience">
+  <div class="header-block">
+    <h1 class="header" id="section-two-header">experience</h1>
+    <h3 class ="sub-header" id="section-two-sub-header">
+      I have been practicing Java for three years, spending one year focusing on<br />
+      android development. During this time, I taught myself HTML, CSS, & JavaScript,<br />
+      while also taking online courses in PHP and SQL.
+    </h3>
+  </div>
+  <img src="arrow-image-right-2.png" class ="arrow-image arrow-right" id="arrow-right-experience">
+</div>
+
+<!-- ****** SECTION THREE: CREATIONS ****** !-->
+  <div class="section-three">
+    <img src="x-image.png" class ="arrow-image arrow-left" id="arrow-left-creations">
+    <div class="header-block">
+      <h1 class="header" id="section-three-header">creations</h1>
+      <h3 class ="sub-header" id="section-three-sub-header">this is still a work in progress.</h3>
+    </div>
+    <img src="arrow-image-right-2.png" class ="arrow-image arrow-right" id="arrow-right-creations">
+  </div>
+
+  <!-- ****** SECTION FOUR (NEGATIVE ONE): PERSONAL ****** !-->
+    <div class="section-four">
+      <img src="arrow-image-left-2.png" class ="arrow-image arrow-left" id="arrow-left-personal">
+      <div class="header-block">
+        <h1 class="header" id="section-four-header">personal</h1>
+        <h3 class ="sub-header" id="section-four-sub-header">I am Kristopher Thomas Rollert, an 18-year-old born in South Pasadena, CA. In 2020,I will graduate<br />with a major in Computer Science with a minor in Mathematics from UC Santa Cruz.  My passions that don’t<br />include computers are hiking/backpacking, playing Ultimate Frisbee, and petting my dog. Nothing makes me<br />more excited than learning new things, whether it is another programming language or weird facts. Did you<br />know that a group of salamanders is called a congress and a group of owls is called a senate?</h3>
+      </div>
+      <img src="arrow-image-right-2.png" class ="arrow-image arrow-right" id="arrow-right-personal">
+    </div>
+
+    <!-- ****** SECTION FOUR (NEGATIVE ONE): PERSONAL ****** !-->
+    <div class="section-five">
+      <img src="arrow-image-left-2.png" class ="arrow-image arrow-left" id="arrow-left-contact">
+      <div class="header-block">
+        <h1 class="header" id="section-five-header">contact</h1>
+        <a href="https://github.com/kristopherrollert"target="_blank" ><img src="github-icon.png" class="contact-image"></a>
+        <a href="mailto:me@kristopherrollert.com" ><img src="email-icon.png" class="contact-image"></a>
+        <a href="https://www.linkedin.com/in/kristopher-rollert-2843b010b?trk=hp-identity-name" target="_blank"><img src="linkedin-icon.png" class="contact-image"></a>
+      </div>
+      <img src="x-image.png" class ="arrow-image arrow-right" id="arrow-right-contact">
+    </div>
+
+
   <div class="bottom-page-content">
     <ul class="bottom-page-menu">
-      <li class="bottom-page-menu-items">
-        PERSONAL
-      </li>
-      <li class="bottom-page-menu-items">
+      <li class="bottom-page-menu-items" id="creations-tab">
         CREATIONS
       </li>
-      <li class="bottom-page-menu-items">
+      <li class="bottom-page-menu-items" id="experience-tab">
         EXPERIENCE
       </li>
-      <li class="bottom-page-menu-items">
+      <li class="bottom-page-menu-items" id="home-tab">
+        HOME
+      </li>
+      <li class="bottom-page-menu-items" id="personal-tab">
+        PERSONAL
+      </li>
+      <li class="bottom-page-menu-items" id="contact-tab">
         CONTACT
       </li>
     </ul>
   </div>
--->
+
 </body>
 </html>
