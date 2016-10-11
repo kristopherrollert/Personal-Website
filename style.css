@@ -108,7 +108,7 @@ body{
   font-size: 4vw;
   margin-bottom: 0px;
   margin-top: 0px;
-    font-weight: 300;
+    font-weight: 900;
   }
   #countdown{
     font-family: 'Roboto', sans-serif;
@@ -144,7 +144,7 @@ a:hover{
 }
 .bottom-page-menu-items{
   display:inline;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'roboto', sans-serif;
   padding: 0px 10px 0px 10px;
 }
 .bottom-page-menu{
@@ -163,6 +163,7 @@ a:hover{
 #creations-tab{
   cursor: pointer;
   padding: .8vw;
+  padding-bottom: 3vw;
   margin-right: .1vw;
   border-radius: 10px 10px 0 0;
   background-size: 100% 200%;
@@ -176,6 +177,7 @@ a:hover{
 #experience-tab{
   cursor: pointer;
   padding: .8vw;
+  padding-bottom: 3vw;
   margin-left: .1vw;
   font-size: 1vw;
   margin-right: .1vw;
@@ -189,6 +191,7 @@ a:hover{
 #home-tab{
   cursor: pointer;
   padding: .8vw;
+  padding-bottom: 3vw;
   font-size: 1vw;
   margin-left: .1vw;
   margin-right: .1vw;
@@ -203,6 +206,7 @@ a:hover{
   cursor: pointer;
   font-size: 1vw;
   padding: .8vw;
+  padding-bottom: 3vw;
   margin-left: .1vw;
   margin-right: .1vw;
   background-size: 100% 200%;
@@ -216,6 +220,7 @@ a:hover{
   cursor: pointer;
   font-size: 1vw;
   padding: .8vw;
+  padding-bottom: 3vw;
   margin-left: .1vw;
   background-size: 100% 200%;
   border-radius: 3px 3px 0 0;
