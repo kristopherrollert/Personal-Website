@@ -4,7 +4,7 @@
   id = setInterval(function() {
     counter--;
     if(counter < 1) {
-        window.location.href = "index.html";
+        window.location.href = "http://kristopherrollert.com";
         clearInterval(id);
     } else {
         document.getElementById("countdown").innerHTML =counter.toString();
