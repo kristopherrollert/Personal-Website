@@ -8,7 +8,5 @@
         clearInterval(id);
     } else {
         document.getElementById("countdown").innerHTML =counter.toString();
-        //alert(counter.toString());
-        //console.log("hey");
     }
 }, 1000);
