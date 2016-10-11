@@ -108,7 +108,11 @@ body{
   font-size: 4vw;
   margin-bottom: 0px;
   margin-top: 0px;
+    font-weight: 300;
+  }
+  .header-main{
     font-weight: 900;
+    font-size:5vw;
   }
   #countdown{
     font-family: 'Roboto', sans-serif;
