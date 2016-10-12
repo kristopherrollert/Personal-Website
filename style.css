@@ -159,6 +159,7 @@ a:hover{
   padding-top: 1vw;
   margin:0px;
   height:2vw;
+  min-height: 15px;
   padding-bottom:.2vw;
 }
 
