@@ -19,6 +19,12 @@ $(document).ready(function(){
       }
   });
 
+  $(".contact-image").hover(function(){
+    $(this).css("backgroundColor", "white");
+  }, function(){
+    $(this).css("backgroundColor", "transparent");
+  });
+
   //HOME PAGE LEFT
   $("#arrow-left-home").click(function(){
     $(".section-two").animate({right: "0%"}, 600);
