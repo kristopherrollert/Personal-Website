@@ -1,0 +1,88 @@
+@media only screen and (max-width: 768px) {
+
+    /* HEADER */
+    .image-box {
+        width: 250px;
+        height: 250px;
+    }
+
+    .landing-image {
+        width: 250px;
+        height: 250px;
+    }
+
+    .image-border {
+        width: 256px;
+        height: 256px;
+    }
+
+    .section-header {
+        font-size: 4.6rem;
+    }
+
+    .subheader-italics {
+        font-size: 1.7rem;
+    }
+
+    /* CHANGE LATER */
+
+    .image-circle {
+        display:none;
+    }
+
+
+    /* BIO */
+
+
+
+    /* PROJECTS */
+
+    #project-top-bar {
+        display: block;
+    }
+
+    .project-sections > li {
+        font-size: 15px;
+        margin-right: 10px;
+    }
+
+    #project-top-bar > .eight {
+        margin-top: 20px;
+    }
+
+    .programming-section > .row{
+        display: block !important;
+    }
+
+    .project-image-box {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .project-detail-top{
+        display: block;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border-bottom: 1px solid #707070;
+    }
+
+    .project-title {
+        margin-bottom: 10px;
+    }
+
+    .project-dates {
+
+    }
+
+
+    /* CONTACT */
+
+    .icon-text {
+        font-size: 18px;
+    }
+
+    input {
+        padding-top: 7px;
+    }
+
+}
