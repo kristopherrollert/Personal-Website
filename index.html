@@ -14,6 +14,7 @@
       integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
       crossorigin="anonymous"></script>
      <script src="js/script.js"></script>
+     <link href="style/fa/all.css" rel="stylesheet">
 </head>
 <body>
     <div class="landing-content">
@@ -41,15 +42,16 @@
             <h1 class="section-header">biography</h1>
             <div class="row">
                 <div class="eight columns">
-                    <p class="bio-text">Hello! My full name is Kristopher Thomas Rollert, but most people call me Kris. I was born in Pasadena, but my parents moved to my brother and me to South Pasadena right before I entered Kindergarten. I joined Boy Scouts in sixth grade and eventually became an Eagle Scout in twelfth grade. After graduating South Pasadena High School, I enrolled in the University of California, Santa Cruz. I am currently a third year at UCSC and have declared majors in both Computer Science and Computational Mathematics. In my free time, I am always trying to improve myself. Right now that means learning server side coding and trying to teach myself the guitar. To relax, you can find me playing ultimate frisbee or picking up a game of chess. When I am back in South Pasadena, you can find me helping my brother run the Los Angeles Chess Social or taking my dog (Annie) on a run. Want to find out more about me? Send me an email in the contact section below!</p>
+                    <p class="bio-text">Hello! My full name is Kristopher Thomas Rollert, but most people call me Kris. I was born in Pasadena, but my parents moved my brother and me to South Pasadena right before I entered Kindergarten. I joined Boy Scouts in sixth grade and eventually became an Eagle Scout in twelfth grade. I have been hooked on computer science since sophomore year of high school when I took my first computer science class. I am currently a third year at University of California, Santa Cruz and have declared majors in both Computer Science and Computational Mathematics. In my free time, I am always trying to improve myself. Right now that means learning server side coding and teaching myself how to play the guitar. To relax, I play ultimate frisbee or challenge a friend in a game of chess. Back in South Pasadena, I help my brother run the Los Angeles Chess Social and spend lots of time with my dog. Want to find out more about me? Send me an email in the contact section below!</p>
                 </div>
                 <div class="four columns">
                     <div class="image-circle">
                         <div class="wrapper">
                             <img src="img/4.jpg" alt="image" class="inner-image" id="ii-1">
-                            <img src="img/5.jpg" alt="image" class="inner-image" id="ii-2">
+                            <img src="img/2.JPG" alt="image" class="inner-image" id="ii-2">
                             <img src="img/3.JPG" alt="image" class="inner-image" id="ii-3">
-                            <img src="img/7.jpg" alt="image" class="inner-image" id="ii-4">
+                            <img src="img/1.jpg" alt="image" class="inner-image" id="ii-4">
+                            <img src="img/5.jpg" alt="image" class="inner-image" id="ii-5">
                             <div class="pie spinner"></div>
                             <div class="pie filler"></div>
                             <div class="mask"></div>
@@ -58,11 +60,156 @@
                 </div>
             </div>
         </div>
-        <!-- <div class="divider-section"></div> -->
+        <div class="divider-section"></div>
+        <div id="project-section" class="large-section">
+            <div class="row" id="project-top-bar">
+                <div class="four columns">
+                    <h1 class="section-header">projects</h1>
+                </div>
+                <div class="eight columns">
+                    <ul class="project-sections">
+                        <li id='all-tab'>all</li>
+                        <li id='prog-tab' class="project-selected">programming</li>
+                        <li id='web-tab'>web development</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="project-main">
+                <div class="programming-section">
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="project-image-box">
+                                <div class="project-image" id="usc-image"></div>
+                            </div>
+                        </div>
+                        <div class="eight columns">
+                            <div class="project-detail-box">
+                                <div class="project-detail-top">
+                                    <h2 class="project-title">graph-based dynamic route planning ...</h2>
+                                    <h3 class="project-dates">july to september, 2018</h3>
+                                </div>
+                                <div class="project-detail-bottom">
+                                    <p class="project-details">While working for the University of Southern California as a research assistant, I worked with a post graduate who had gotten a research grant from Huawei. We were tasked with researching and developing a way to quickly and optimally match drivers to multi-restaurant food delivery orders. I co-authored the paper titled “Graph-based Dynamic Route Planning for Collective Customer Matching”. My time at USC was spent tackling conceptual problems with my advisor and programing the experiments in python.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="project-image-box">
+                                <div class="project-image" id="aqustic-image"></div>
+                            </div>
+                        </div>
+                        <div class="eight columns">
+                            <div class="project-detail-box">
+                                <div class="project-detail-top">
+                                    <h2 class="project-title">aqustic</h2>
+                                    <h3 class="project-dates">april to june, 2017</h3>
+                                </div>
+                                <div class="project-detail-bottom">
+                                    <p class="project-details">My Introduction to Software Engineering class tasked our team of four with developing a project using Scrum development practices. I took on the role of project leader on our team and came up with the idea for aqusitc. Aqustic is a web application that allowed party-goers to collaboratively select music by adding songs to queue and liking/disliking songs so that everyone has a say in choice of music. We developed our web app using Node.js, express, and the Spotify API.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="project-image-box">
+                                <div class="project-image" id="kyphs-image"></div>
+                            </div>
+                        </div>
+                        <div class="eight columns">
+                            <div class="project-detail-box">
+                                <div class="project-detail-top">
+                                    <h2 class="project-title">kyphs</h2>
+                                    <h3 class="project-dates">march, 2017</h3>
+                                </div>
+                                <div class="project-detail-bottom">
+                                    <p class="project-details">During the hackathon ‘Hacktech’, my team and I created a 3D printed set of sensors placed that was made to line the spine of the user. From the device, we could gather data that would be transmitted onto a web application. This device was intended to give information to people who have poor posture and could be used for correctional and medical use. Half the team worked on created the device and getting data where the other half of the team worked on the web application. My teammate and I used Node.js, HTML, and CSS to create a site that displayed the data from the device in a clear, user-friendly manner.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="web-section">
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="project-image-box">
+                                <div class="project-image" id="sm-image"></div>
+                            </div>
+                        </div>
+                        <div class="eight columns">
+                            <div class="project-detail-box">
+                                <div class="project-detail-top">
+                                    <h2 class="project-title">student media</h2>
+                                    <h3 class="project-dates">september 2016 - present</h3>
+                                </div>
+                                <div class="project-detail-bottom">
+                                    <p class="project-details">I have been working at UC Santa Cruz’s Student Media as their web developer since the end of 2016. This means working on and managing more than fifteen newspaper and magazine’s websites along with Student Media’s. Though I focus more on backend, I do often have to work with the front end of all of these sites. All of them use WordPress and SquareSpace which is fairly simple, but occasionally I am tasked with going beyond the drag and drop features and have to implement my own plugins or styling using JavaScript and PHP.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="four columns">
+                            <div class="project-image-box">
+                                <div class="project-image" id="chess-image"></div>
+                            </div>
+                        </div>
+                        <div class="eight columns">
+                            <div class="project-detail-box">
+                                <div class="project-detail-top">
+                                    <h2 class="project-title">chess social</h2>
+                                    <h3 class="project-dates">may 2017 - present</h3>
+                                </div>
+                                <div class="project-detail-bottom">
+                                    <p class="project-details">My brother and I have created and are co-presidents of the Los Angeles Chess Social. The Chess Social is a weekly event hosted at various swanky bars all across Los Angeles. There is live music, good company, and plenty of chess sets. Because I have some experience in it, I have also taken on the role of webmaster. The site is created from scratch, using on HTML, CSS, and JavaScript. The site is still a work in progress as we decide we would like to take the site. Make sure to drop by the Chess Social on Tuesday nights! Find out more information on the Chess Social site.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divider-section"></div>
+        <div id="contact-section" class="large-section">
+            <h1 class="section-header">contact</h1>
+            <h4 class="subheader">email me at <a class="email" href="mailto:kristopher.rollert@gmail.com">kristopher.rollert@gmail.com</a> or use the below form.</h4>
+            <div class="row">
+                <div class="five columns">
+                    <form method="POST" class="gform" id="contact-form" data-email="kristopher.rollert@gmail.com" action="https://script.google.com/macros/s/AKfycbzpOOK-x1f3a6puv12cY8uwk0aILUXRLMVQlXaK5Q/exec">
+                        <input type="text" name="name" autocomplete="name" placeholder="name"><br>
+                        <input type="email" name="email" autocomplete="email" placeholder="email"><br>
+                        <input type="text" name="subject" autocomplete="off" placeholder="subject"><br>
+                        <label class="sr-only">Keep this field blank!</label>
+                        <input id="honeypot" type="text" name="honeypot" value="" />
+                        <textarea rows="5" name="message" form="contact-form" placeholder="message"></textarea>
+                        <input type="submit" value="send">
+                    </form>
 
+                </div>
+                <div class="two columns"><br /></div>
+                <div class="five columns">
+                    <div class="icon-section">
+                        <div class="linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                            <a href="https://www.linkedin.com/in/kristopher-rollert/" target="_blank" class="icon-text">find me on LinkedIn</a>
+
+                        </div>
+                        <div class="github">
+                            <i class="fab fa-github"></i>
+                            <a href="https://github.com/kristopherrollert" target="_blank" class="icon-text">view my code on GitHub</a>
+                        </div>
+                        <div class="resume">
+                            <i class="fa fa-paper-plane"></i>
+                            <a href="/resume.pdf" class="icon-text">judge my resume</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="looking-for-more">
-        <h3>Looking for more? This site is still being built, so come back soon to see the rest!</h3>
-    </div>
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 </body>
 </html>

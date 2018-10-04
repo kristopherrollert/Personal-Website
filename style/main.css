@@ -1,6 +1,6 @@
 /* All page styles */
 * {
-    font-family: "proxima-nova" !important;
+    font-family: "proxima-nova";
     color: #707070;
 }
 
@@ -197,41 +197,46 @@
 
     @-webkit-keyframes ii-animation-1 {
         0%   {opacity: 1}
-        25%  {opacity: 1}
-        26%  {opacity: 0}
+        20%  {opacity: 1}
+        21%  {opacity: 0}
         100%  {opacity: 0}
     }
     @-webkit-keyframes ii-animation-2 {
         0% { opacity: 0}
-        25% {opacity: 0}
-        26% {opacity: 1}
-        50% {opacity: 1}
-        51% {opacity: 0}
+        20% {opacity: 0}
+        21% {opacity: 1}
+        40% {opacity: 1}
+        41% {opacity: 0}
     }
     @-webkit-keyframes ii-animation-3 {
         0%  {opacity: 0}
-        50% {opacity: 0}
-        51% {opacity: 1}
-        75% {opacity: 1}
-        76% {opacity: 0}
+        40% {opacity: 0}
+        41% {opacity: 1}
+        60% {opacity: 1}
+        61% {opacity: 0}
     }
     @-webkit-keyframes ii-animation-4 {
-        0%   { opacity: 1}
-        1%   {opacity: 0}
-        75%  {opacity: 0}
-        76%  {opacity: 1}
-        100% {opacity: 1}
+        0%   { opacity: 0}
+        60%  {opacity: 0}
+        61%  {opacity: 1}
+        80%  {opacity: 1}
+        81%  {opacity: 0}    }
+     @-webkit-keyframes ii-animation-5 {
+         0%   { opacity: 1}
+         1%   {opacity: 0}
+         80%  {opacity: 0}
+         81%  {opacity: 1}
+         100% {opacity: 1}
     }
-    /* @-webkit-keyframes ii-animation-5 {
-        0% { opacity: 0; }
-        40% {opacity: 1}
-        50%, 100% {opacity: 0;}
-    }
+
+    /*
     @-webkit-keyframes ii-animation-6 {
         0% { opacity: 0; }
         50% {opacity: 1}
         60%, 100% {opacity: 0;}
     }
+
+
     @-webkit-keyframes ii-animation-7 {
         0% { opacity: 0; }
         60% {opacity: 1}
@@ -270,34 +275,289 @@
     }
 
     #ii-1 {
-        -webkit-animation: ii-animation-1 40s steps(1, end) infinite;
+        -webkit-animation: ii-animation-1 50s steps(1, end) infinite;
         animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
      }
     #ii-2 {
-        -webkit-animation: ii-animation-2 40s steps(1, end) infinite;
+        -webkit-animation: ii-animation-2 50s steps(1, end) infinite;
         animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
     }
     #ii-3 {
-        -webkit-animation: ii-animation-3 40s steps(1, end) infinite;
+        -webkit-animation: ii-animation-3 50s steps(1, end) infinite;
         animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
     }
     #ii-4 {
-        -webkit-animation: ii-animation-4 40s steps(1, end) infinite;
+        -webkit-animation: ii-animation-4 50s steps(1, end) infinite;
         animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
-
+    }
+    #ii-5 {
+        -webkit-animation: ii-animation-5 50s steps(1, end) infinite;
+        animation-timing-function: ease-out; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
     }
 
 
-.looking-for-more{
-    margin-top: 200px;
-    width: 100%;
-    text-align: center;
-    background-color: #595959
-}
+#project-section {
 
-.looking-for-more h3 {
-    color: white;
-    margin-bottom: 0px;
-    padding: 10px;
-    font-size: 15px;
 }
+    #project-top-bar {
+        display: flex;
+        align-items: flex-end;
+    }
+
+    .project-sections {
+        margin: 2px;
+    }
+
+    .project-sections > li{
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+        cursor: pointer;
+    }
+
+    .project-selected {
+        border-bottom: .5px solid #686868;
+    }
+
+    .web-section {
+        display:none;
+    }
+
+    #project-main {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        min-height: 80vh;
+    }
+
+    #project-main div > .row {
+        display: flex;
+        align-items: stretch;
+        margin-bottom: 30px;
+    }
+
+    .project-image-box {
+        width: 100%;
+        height: 100%;
+        border: .5px solid #707070
+
+    }
+
+    .project-image {
+        margin: 5px;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+    }
+
+    #aqustic-image {
+        background: url("../img/aqustic.PNG") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #kyphs-image {
+        background: url("../img/kyphs.PNG") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #usc-image {
+        background: url("../img/usc.PNG") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #sm-image {
+        background: url("../img/studentmedia.PNG") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    #chess-image {
+        background: url("../img/chesssocial.PNG") no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+
+    .project-detail-box {
+        background-color: #F7F7F7;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .project-detail-top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+    }
+
+    .project-title {
+        font-size: 35px;
+        display: inline-block;
+        margin-bottom: 0;
+        font-weight: 400;
+    }
+
+    .project-dates {
+        font-size: 20px;
+        font-style: italic;
+        margin-bottom: 0;
+    }
+
+    .project-details {
+        text-align: justify;
+        margin-bottom: 0;
+    }
+
+#contact-section {
+
+
+}
+    #contact-form {
+        margin-bottom: 0;
+    }
+
+    .email {
+        border-bottom: 1px solid #AAAAAA;
+        color: #AAAAAA;
+        text-decoration: none;
+        margin-left: 2px;
+        margin-right: 2px;
+
+    }
+
+    .email:hover {
+        background-color: #5FDBD7;
+        border-bottom: 1px solid #5FDBD7;
+        color: white;
+        padding-left: 2px;
+        margin: 0;
+        padding-right: 2px;
+    }
+
+    .subheader {
+        margin-top: 15px;
+        margin-bottom: 40px;
+        font-size: 18px;
+        color: #AAAAAA;
+        margin-bottom: 30px;
+    }
+
+    input {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 200;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    textarea {
+        width: 100%;
+        font-size: 20px;
+        font-weight: 200;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 9.5px;
+        padding-right: 9.5px;
+        border-width: .5px;
+        resize: none;
+        margin-bottom: 10px;
+    }
+
+    ::placeholder {
+        color: #AAAAAA;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    input[type="submit"] {
+        width: auto;
+        background: none;
+        border: .5px solid #aaa;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        transition: all .5s ease;
+    }
+
+    input[type="submit"]:hover {
+        border-color: rgb(150,196,242);
+        background-color: rgb(150,196,242);
+        color: white;
+    }
+
+
+    .icon-section > div {
+        margin-bottom: 30px;
+    }
+
+    .icon-text{
+        color: #656565;
+        text-decoration: none;
+        display:inline;
+        margin-left: 20px;
+        font-size: 25px;
+        padding-bottom: 3px;
+        cursor: pointer;
+        font-weight: 300;
+    }
+
+
+    .linkedin > .icon-text:hover {
+        border-bottom: 1px solid #B0D5FF;
+        color: #B0D5FF;
+    }
+
+    .github > .icon-text:hover {
+        border-bottom: 1px solid #FFCC66;
+        color: #FFCC66;
+    }
+
+    .resume > .icon-text:hover {
+        border-bottom: 1px solid #A7FFAB;
+        color: #A7FFAB;
+    }
+
+    .linkedin > .fab {
+        background-color: #B0D5FF
+    }
+
+    .github > .fab {
+        background-color: #FFCC66
+    }
+
+    .resume > .fa {
+        background-color: #A7FFAB
+    }
+
+    i.fab, i.fa {
+          display: inline-block;
+          border-radius: 100px;
+          padding: 0.5em 0.55em;
+          color: white;
+          font-size: 20px;
+    }
+
+    #honeypot {
+      display: none;
+    }
